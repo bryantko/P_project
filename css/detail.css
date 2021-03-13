@@ -1,0 +1,228 @@
+.main{
+    height: 2750px;
+    border: 1px solid #fff;
+}
+.main-nav{
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    color: gray;
+    background-color: #fff;
+    /* box-shadow: 4px 4px rgba(0,0,0,.5); */
+
+}
+.main img{
+    float: left;
+    width: 560px;
+    height: 560px;
+}
+.pro-desc{
+    float: right;
+    width: 570px;
+    height: 1200px;
+    /* border: 1px solid black; */
+    font-size: 13px;
+}
+.info em{
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+    font-style: normal;
+}
+.info p{
+    margin-top: 10px;
+    line-height: 1.5;
+    color: gray;
+}
+.order{
+    width: 555px;
+    height: 50px;
+    /* border: 1px solid black; */
+    background: linear-gradient(to right,#ff5906, #ff3012);
+    margin-top: 15px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #fff;
+}
+.order p:first-child{
+    font-style: 14px;
+    display: inline;
+}
+.order p:last-child{
+    float: right;
+    margin-right: 10px;
+}
+.address{
+    width: 570px;
+    height: 100px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    
+}
+.address p{
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.address i{
+    margin-left: 0px;
+}
+.edition p,.color p,.suit p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.edition li,.color li,.suit li{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: gray;
+}
+.color{
+
+    margin-top: 140px;
+}
+.suit{
+    width: 570px;
+    margin-top: 140px;
+}
+.cloud{
+    margin-top: 30px;
+}
+.guar{
+    margin-top: 30px;
+}
+.protect{
+    margin-top: 30px;
+}
+.service{
+    width: 570px;
+    margin-top: 80px;
+}
+.service-title,.protect-title,.guar-title,.cloud-title{
+    width: 540px;
+    height: 30px;
+    line-height: 30px;
+}
+.service-title span,.protect-title span,.guar-title span,.cloud-title span{
+    font-size: 20px;  
+    margin-left: 20px;
+}
+.service-title span:last-child,.protect-title span:last-child,.guar-title span:last-child,.cloud-title span:last-child{
+    float: right;
+    font-size: 15px;
+    color: orangered;
+}
+.service-micare,.protect-micare,.cloud-micare,.guar-micare{
+    width: 540px;
+    height: 150px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.service-micare .circle,.protect-micare .circle,.guar-micare .circle,.cloud-micare .circle{
+    width: 10px;
+    height: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.service-micare img,.protect-micare img,.guar-micare img,.cloud-micare img{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: -40px;
+}
+.service-micare-text,.protect-micare-text,.guar-micare-text,.cloud-micare-text{
+    /* margin-top: -40px; */
+    width: 235px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: -40px;
+    margin-left: 140px;
+}
+.service-micare-text b,.protect-micare-text b,.guar-micare-text b,.cloud-micare-text b{
+    font-size: 18px;
+    font-weight: bold;
+}
+.service-micare-text span,.protect-micare-text span,.guar-micare-text span,.cloud-micare-text span{
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: 1px solid #fff;
+    background-color: orangered;
+    border-radius: 20px;
+    color: #fff;
+    padding: 2px 5px
+}
+.service-micare-text em,.protect-micare-text em,.guar-micare-text em,.cloud-micare-text em{
+   color: gray;
+}
+.price{
+    width: 520px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.price p{
+    font-style: 13px;
+    color: gray;
+    
+}
+.price b{
+    display: block;
+    font-size: 24px;
+    color: orangered;
+    margin-top: 25px;
+}
+.price .btn{
+    width: 540px;
+    height: 50px;
+    border: none;
+    margin-top: 60px;
+}
+.price .btn li{
+    float: left;
+}
+.price .btn:hover{
+    background-color: #fff;
+}
+.price .btn li button{
+    display: inline-block;
+    width: 298px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 16px;
+    background-color: #e0e0e0;
+    border: none;
+    color: #b0b0b0;
+    outline: none;
+}
+.price .btn li:last-child button{
+    width: 140px;
+    height: 52px;
+    margin-left: 10px;
+    color: #fff;
+    background-color: #b0b0b0;
+}
+.confirm p{
+    line-height: 2;
+    font-size: 15px;
+    color: gray;
+    margin-left: 20px;
+}
+.confirm i{
+    font-size: 20px;
+}
+.price-desc{
+    font-size: 22px;
+}

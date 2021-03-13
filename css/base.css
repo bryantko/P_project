@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.br{
+	border-top: 1px solid red;
+}
+.bo{
+	border-top: 1px solid orange;
+}
+.bg{
+	border-top: 1px solid green;
+}
+.bb{
+	border-top: 1px solid blue;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.b_r{
+	width: 1px;
+	height: 5px;
+	border: 1px solid #ccc;
+
+}
+em{
+	font-style: normal;
+}

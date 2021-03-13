@@ -1,0 +1,292 @@
+.nav{
+	height: 40px;
+	background:rgb(51,51,51);
+}
+.nav_left li,.nav_right li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	margin-left: 7px;
+}
+.nav_left li span,.nav_right li span{
+	color: rgb(63,77,63);
+}
+.nav_left li a,.nav_right li a{
+	color: rgb(176,176,176);
+}
+.nav_left li a:hover{
+	color: #fff;
+}
+.nav_right .gouwuche{
+	width: 121px;
+	height: 40px;
+	background-color: rgb(66,66,66);
+	cursor: pointer;
+}
+.nav_right .gouwuche li{
+	padding-left: 6px;
+}
+.nav_right li:hover a{
+	color: #fff;
+}
+.nav_right .gouwuche li:nth-child(1){
+	color: rgb(176,176,176);
+	font-size: 16px;
+	vertical-align: middle;
+}
+.nav_right .gouwuche li:nth-child(2){
+	color: rgb(176,176,176);
+	height: 40px;
+	line-height: 40px;
+}
+.nav_right .gouwuche:hover{
+	background-color: #fff;
+}
+.nav_right .gouwuche:hover li{
+	color: rgb(255,108,8);
+}
+.header{
+	height: 102px;
+	/* border: 1px solid black; */
+	position: relative;
+}
+.header .logo{
+	width: 53px;
+	height: 53px;
+	background-color: rgb(255,108,8);
+	margin-top: 24.5px;
+	position: relative;
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo .img1{
+	position: absolute;
+}
+.logo .img2{
+	display: none;
+}
+
+.header .daohanglan{
+	/* position: absolutes */
+	height: 102px;
+	width: 965px;
+	/* border:  1px solid black; */
+}
+.header .daohanglan li{
+	float: left;
+	height: 102px;
+	line-height: 102px;
+	margin-left: 16px;
+}
+.header .daohanglan li a{
+	color: black;
+}
+.header .daohanglan li a:hover{
+	color:rgb(255,108,8) ;
+}
+.nav-xiaomi{
+	width: 100%;
+	height: 230px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	z-index: 999;
+	border-top: 1px solid #ccc;
+	box-shadow: 5px 5px 5px #ccc .5;
+}
+.nav-xiaomi li{
+	width: 200px;
+	height: 230px;
+	margin: 0 auto;
+	padding: 40px 0px;
+}
+.nav-xiaomi li span{
+	display: block;
+	line-height: normal;
+	font-size: 12px;
+	text-align: center;
+
+}
+.nav-xiaomi img{
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	
+}
+.search{
+	/* margin-left: 95px; */
+	position: relative;
+
+}
+.search input{
+	float: left;
+	width: 244px;
+	height: 50px;
+	border: 1px solid #ccc;
+	padding-left: 10px;
+	color: #ccc;
+	margin-top: 26px;
+	margin-left: 60px;
+}
+input:focus{
+	outline: none;
+	border: 1px solid rgb(255,108,8);
+}
+.btn{
+	float: left;
+	width: 50px;
+	height: 52px;
+	border: 1px #ccc solid;
+	background: none;
+	/* border-left: none; */
+	margin-left: -1px;
+	margin-top: 26px;
+}
+.btn:focus{
+	outline: none;
+	border: 1px solid rgb(255,108,8);
+}
+.search i{
+	font-size: 26px;
+	/* color: #fff; */
+	position: absolute;
+	top: 38px;
+	right: 12px;
+}
+.btn:hover{
+	background-color: rgb(255,108,8);
+}
+.btn:hover i{
+	color: #fff;
+}
+.footer_top{
+	height: 100px;
+	width: 1200px;
+	/* border: 1px solid black; */
+}
+.footer_top li{
+	float: left;
+	width: 238px;
+	height: 100px;
+	/* border: 1px solid black */
+	display: flex;
+	font-size: 15px;
+	justify-content: center;
+	align-items: center;
+	color: rgb(63,77,63);
+	
+}
+.footer_top li i{
+	display: block;
+	font-size: 20px;
+	margin-right: 8px;
+}
+.footer_top li:hover{
+	color: orange;
+	cursor: pointer;
+}
+.footer_main{
+	height: 100px;
+	/* border: 1px solid black; */
+	position: relative;
+}
+
+.footer_main ul{
+	position: absolute;
+	left: -50px;
+	top: -50px;
+}
+.footer_main li{
+	float: left;
+	padding: 80px 30px 30px 70px;
+	font-size: 12px;
+	line-height: 35px;
+	color:gray;
+	margin-top: 0;
+	
+}
+
+.footer_main li span{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: rgb(51, 45, 45);
+	
+}
+.footer_main .footer_main_artifi{
+	/* border: 1px solid black; */
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	right: 50px;
+	top: 40px;
+	text-align: center;
+	border-left: 1px solid #ccc;
+}
+.footer_main_artifi p{
+	margin-bottom: 8px;
+}
+.footer_main_artifi p:first-child{
+	font-size: 20px;
+	color: orangered;
+}
+.footer_main_artifi p:nth-child(2){
+	font-size: 13px;
+	color: grey;
+}
+.footer_main_artifi p:nth-child(3){
+	border: 1px solid orangered;
+	font-size: 13px;
+	color: orangered;
+	margin: 0 auto;
+	padding: 5px 25px;
+	width: 80px;
+}
+.footer_main_artifi p:nth-child(3) i{
+	/* display: block; */
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer_main_artifi p:nth-child(4){
+	font-size: 13px;
+	color:grey;
+}
+.footer_main_artifi p:nth-child(4) i{
+	font-size: 20px;
+}
+.footer_bottom{
+	height: 200px;
+	/* border: 1px solid black; */
+	margin-top: 200px;
+	color:grey
+}
+.footer_bottom_logo{
+	height: 60px;
+	width: 60px;
+	background-color: rgb(255,108,8);
+	/* background:url(../upload/mi-logo.png); */
+	float: left;
+	
+}
+.footer_bottom_logo img{
+	display: block;
+	padding: 6px;
+}
+ .footer_bottom li{
+	 float: left;
+	 font-size: 10px;
+	 margin-left: 10px;
+
+ }
+.botText{
+	font-size: 19px;
+	text-align: center;
+	color:#ccc;
+	margin-bottom: 5px;
+}
+
+
